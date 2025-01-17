@@ -17,11 +17,11 @@ resource "aws_s3_bucket" "bucket_example" {
   bucket = "my-bucket-example"
 }
 
-resource "aws_instance" "coffee_with_bits_ec2_example" {
+resource "aws_instance" "ec2_example" {
   ami           = "ami-0c55b159cbfafe1f0" # Linux
   instance_type = "t2.micro"
 
   tags = {
-    Name = "CoffeeWithBitsEC2Example"
+    Name = "EC2Example"
   }
 }

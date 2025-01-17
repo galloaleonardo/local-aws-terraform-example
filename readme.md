@@ -7,7 +7,8 @@
 
 # How to run:
 
-## Run docker image
+## Run localstack docker image
+- We will use localstack to simulate AWS services.
 ```bash
 docker run --rm -it -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
 ```
